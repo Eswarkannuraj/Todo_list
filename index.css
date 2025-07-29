@@ -1,0 +1,60 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  background-color: #38fffc;
+  padding: 5px;
+  margin: 5px 0px;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+.entryTable {
+  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+select {
+  width: 100%;
+}
+
+
+.dataContainer table {
+  margin: 20px auto;
+  width:70%;
+  /* Center horizontally */
+  border-collapse: collapse;
+  border: 2px solid black;
+  background-color: #fff;
+  table-layout:auto;
+  /* Auto column sizing */
+}
+
+.dataContainer th,
+.dataContainer td {
+  padding: 8px 15px;
+  /* Adds space inside cells */
+  border: 1px solid black;
+  text-align: left;
+  white-space: nowrap;
+  /* Prevents text wrapping */
+}
+
+.dataContainer th {
+  background-color: #f2f2f2;
+}

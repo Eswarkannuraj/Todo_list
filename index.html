@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student form</title>
+</head>
+
+<body>
+  <div class="form">
+    <h1> Student Form</h1>
+
+    <fieldset>
+      <form>
+        <table class="entryTable">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <td>
+                <input type="text" placeholder="your name" required class="inpName">
+              </td>
+            </tr>
+
+            <tr>
+              <th>Age</th>
+              <td><input type="number" placeholder="your age" required class="inpAge"></td>
+            </tr>
+
+            <tr>
+              <th>Gender</th>
+              <td>
+                <input type="radio" name="gender" required value="male">
+                <label>male</label>
+                <input type="radio" name="gender" required value="female">
+                <label>female</label>
+              </td>
+            </tr>
+
+            <tr>
+              <th>Course</th>
+              <td>
+                <select class="inpCourse">
+                  <option value="Javascript">Javascript</option>
+                  <option value="c++">C++</option>
+                  <option value="Java">Java</option>
+                  <option value="python">Python</option>
+                  <option value="Ruby">Ruby</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <th>E-mail</th>
+              <td><input type="email" placeholder="your email" required class="inpMail"></td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="inpSubmit">Submit</button>
+      </form>
+    </fieldset>
+  </div>
+  <div class="dataContainer"></div>
+  <script src="index.js"></script>
+</body>
+
+</html>
