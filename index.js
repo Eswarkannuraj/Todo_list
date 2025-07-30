@@ -11,7 +11,7 @@ inpSubmit.addEventListener("click", function (event) {
   let gender = document.querySelector('input[name="gender"]:checked').value;
   let course = inpCourse.value;
 
-  //prevent reloading
+  //prevent reloading..
   event.preventDefault();
 
   //check table exists
